@@ -1,0 +1,14 @@
+a.link 
+{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: 0em;
+	border-bottom: 1px dashed $_firstColor;
+	color: $_firstColor;
+	&:hover
+	{
+		color: $_mainTextColor;
+		border-color: $_mainTextColor;
+	}
+}

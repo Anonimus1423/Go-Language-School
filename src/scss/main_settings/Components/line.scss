@@ -1,0 +1,11 @@
+.line
+{
+    width: 55px;
+    height: 4px;
+    background-color: $_firstColor;
+    border-radius: 10px;
+    .sc
+    {
+        background-color: $_secondColor;
+    }
+}

@@ -1,71 +1,87 @@
 // Text Settings Starts
-h1, h2, h3, h4, h5, h6, p, a, i, strong
-{
-	
-}
 h1
 {
-
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: 0em;
 }
-
 h2
 {
-
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0em;
+	margin-bottom: $_titleMarginBottom;
+	text-align: center;
+	margin-top: $_titleMarginTop;
+	&.second-color
+	{
+		color: $_secondTextColor;
+	}	
+	&.half
+	{
+		font-size: 28px;
+	}
 }
-
 h3
 {
-
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0em;
+	&.small
+	{
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 26px;
+		letter-spacing: 0em;
+	}
 }
-
 h4
 {
-
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
 }
-
-h5
-{
-
-}
-
-h6
-{
-
-}
-
 p
 {
-
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
 }
-
 a
 {
-
+	text-decoration: none;
 }
-
 i
 {
-
+	color: $_thirdTextColor;
+	font-style: normal;
 }
-
 strong
 {
-
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
 }
 // Text Settings Ends
 
 // Components Settings Starts
-input, textarea
+.extraLightShadow
 {
-
+	box-shadow: $_extraLightShadow;
 }
-textarea
+.lightShadow
 {
-
+	box-shadow: $_lightShadow;
 }
-button
+.hardShadow
 {
-
+	box-shadow: $_hardShadow;
 }
 // Components Settings Ends
 
@@ -73,4 +89,90 @@ button
 body
 {
 	background-color: $_backgroundColor;
+}
+
+// Mixins Starts
+@mixin dfjc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin dfsb {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@mixin dfae {
+	display: flex;
+	align-items: flex-end;
+}
+@mixin dfas {
+	display: flex;
+	align-items: flex-start;
+}
+@mixin dfac {
+	display: flex;
+	align-items: center;
+}
+@mixin pac {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+@mixin prc {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+// Mixins Ends
+
+
+@media all and (max-width: $_media_XXLarge) 
+{
+}
+@media all and (max-width: $_media_XLarge) 
+{
+}
+@media all and (max-width: $_media_Large) 
+{
+}
+@media all and (max-width: $_media_Medium) 
+{
+}
+@media all and (max-width: $_media_Small) 
+{
+}
+@media all and (max-width: $_media_ExtraSmall) 
+{
+	// Text Settings Starts
+	h1{
+		font-size: 32px;
+		line-height: 37.25px;
+	}
+	h2{
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 32.59px;
+	}
+	h3{
+		font-size: 22px;
+		line-height: 22px;
+	}
+	h4
+	{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	p
+	{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	strong
+	{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	// Text Settings Ends
 }

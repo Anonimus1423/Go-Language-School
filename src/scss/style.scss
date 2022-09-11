@@ -10,10 +10,14 @@
 // Main settings 
 @import 'main_settings/main.scss';
 
+// Import Components
+@import "main_settings/Components/components.scss";
+
 // Header Scss 
 @import 'site_sections/header.scss';
 
 // Footer Scss
 @import 'site_sections/footer.scss';
 
-
+// Home Page Scss
+@import "./home/home.scss";

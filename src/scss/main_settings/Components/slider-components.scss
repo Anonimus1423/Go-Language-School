@@ -1,0 +1,88 @@
+.slider-controller
+{
+    @include dfae;
+    .left
+    {
+        @include dfae;
+        .arrow
+        {
+            height: 14px;
+            transform: rotateY(180deg);
+        }
+        .order
+        {
+            margin-right: 4px !important;
+            margin-left: 1px;
+        }
+    }   
+    & > p
+    {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+    }
+    .right
+    {
+        @include dfae;
+        .count
+        {
+            margin-left: 4px;
+            margin-right: 1px;
+        }
+        .arrow
+        {
+            height: 14px;
+        }
+    }
+    .order, .count
+    {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .right, .left
+    {
+        cursor: pointer;
+        &:hover
+        {
+            div, img
+            {
+                color: $_firstColor;
+            }
+        }
+    }
+}
+
+.slider-indicators
+{
+    @include dfjc;
+    .indicator
+    {
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 3px;
+        border: 1px solid $_thirdColor;
+        transition: 0.2s;
+        margin-right: 7px;
+        background-color: transparent;
+        cursor: pointer;
+        &.active
+        {
+            background-color: $_secondColorLight;
+        }
+        &:hover
+        {
+            background-color: $_secondColorLight;
+            opacity: 0.5;
+        }
+        &.active:hover
+        {
+            opacity: 1;
+        }
+    }
+    
+    & li:last-child button
+    {
+        margin-right: 0;
+    }
+}

@@ -4,9 +4,9 @@
 	<!-- Document Head Starts -->
 	@@include('html/components/head.html',
 	{
-		"title": "Главная",
-		"icon_image": "@img/site_icon/favicon.png",
-		"icon_image_type": "png"
+		"title": "Go Language School | Սովորենք անգլերեն հեշտ ու արագ",
+		"icon_image": "@img/site_icon/favicon.ico",
+		"icon_image_type": "image/x-icon"
 	})
 	<!-- Document Head Ends -->
 
@@ -18,10 +18,11 @@
 
 
 		<!-- Main Site Content Starts -->
-		<main>dasdf
-			asdaasdf
-			asdaasdfsadf
-			<aside><fieldset>asdaasdf</fieldset></aside>
+		<main>
+			@@include('html/home/cover-page.html',{})
+			@@include('html/home/about.html',{})
+			@@include('html/home/advantages.html',{})
+			@@include('html/home/what-we-can-give-you.html',{})
 		</main>
 		<!-- Main Site Content Ends -->
 

@@ -1,0 +1,74 @@
+section.advantages
+{
+    h2
+    {
+        margin-bottom: 74.8px;
+    }
+    .container
+    {
+        .advantages-list
+        {
+            @include dfsb;
+            flex-wrap: wrap;
+            .advantage
+            {
+                margin-bottom: 54.8px;
+                min-width: 330px;
+                max-width: 348px;
+                .icon
+                {
+                    @include dfjc;
+                    width: 146px;
+                    height: 146px;
+                    @include prc;
+                    background-color: $_secondColor;
+                    border-radius: 50%;
+                    position: relative;
+                    img
+                    {
+                        height: 75px;
+                        width: auto;
+                        max-width: none;
+                    }
+                    &::before, &::after
+                    {
+                        content: "";
+                        width: 155px;
+                        height: 155px;
+                        border: 1px solid $_secondColor;
+                        border-radius: 50%;
+                        @include pac;
+                    }
+                    &::before
+                    {
+                        width: 194px;
+                        height: 194px;
+                    }
+                }
+                h3
+                {
+                    text-align: center;
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                }
+                p
+                {
+                    text-align: center;
+                }
+                &:nth-child(2),
+                &:nth-child(4),
+                &:nth-child(6)
+                {
+                    .icon
+                    {
+                        background-color: $_firstColor;
+                        &::before, &::after
+                        {
+                            border-color: $_firstColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

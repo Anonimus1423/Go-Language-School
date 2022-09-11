@@ -1,25 +1,126 @@
 // Color Setting Starts
 
 	// Site Background Color
-	$_backgroundColor: #fff; 
+	$_backgroundColor: #f9fbfc; 
+	
 
 	// Site Main Text Color
 	$_mainTextColor: #434343;
 
 	// First main color
-	$_firstColor: #FFBB36;
+	$_firstColor: #9C598E;
 
 	// Second main Color
-	$_SecondColor: #9C598E;
+	$_secondColor: #FFBB36;
+
+	// Third Color
+	$_thirdColor: #C1C1C1;
+
+	// Fourth Color
+	$_fourthColor: #FFFFFF;
 
 	// Second text color
 	$_secondTextColor: #FFFFFF;
 
-	// Second background color
-	$_secondBackgroundColor: #f8fafb;
+	// Third Text color 
+	$_thirdTextColor: #9C598E;
 
+	// Fourth Text color 
+	$_fourthTextColor: #FFBB36;
+
+	// Second background color
+	$_secondBackgroundColor: #fff;
+
+	// Third Background Color
+	$_thirdBackgroundColor: #f8fafb;
+
+	// Borders Color 
+	$_bordersColor: #D4D4D4;
+
+	// Second Color light
+	$_secondColorLight: #F7CA0B;
+	
+	// Input Border Color 
+	$_inputBorderColor: #D4D4D4;
+
+	// Darkness of other pages in cover block image
+	$_coverPageDarkness: 0%;
+
+	//
+	// HOVERS
+	//
 	// Text Hover color
 	$_textHoverColor: #9C598E;
+	// First Color Hover
+	$_firstHoverColor: #9C598E80;
+	// First Color Hover Outline
+	$_firstHoverColorOutline: #9C598E;
+	// Second Color Hover
+	$_secondHoverColor: #F7CA0B80;
+	// Second Color Hover Outline
+	$_secondHoverColorOutline: #FFBB36;
+	// Menu element hover background
+	$_menuHoverBackground: #F1F1F1;
 
 // Color Setting Ends
 
+// Margin Settings Starts
+
+	// Titles margin top
+	$_titleMarginTop: 100px;
+
+	// Titles second margin top
+	$_titleSecondMarginTop: 75px;
+
+	// Titles margin Bottom
+	$_titleMarginBottom: 50px;
+
+	// Colored block padding
+	$_coloredBlockPaddingY: 75px;
+
+	// Header Padding Size 
+	$_headerPaddingY: 18px;
+
+	// Mobile Titles margin top
+	$_titleMarginTopMobile: 50px;
+
+	// Mobile Titles second margin top
+	$_titleSecondMarginTopMobile: 40px;
+
+	// Mobile Colored block padding
+	$_coloredBlockPaddingYMobile: 40px;
+
+	// Mobile Header Padding Size 
+	$_headerPaddingYMobile: 6px;
+
+// Margin Settings Ends
+
+// Adaptive Resolutions And Container Sizes Starts
+
+	// Large Container Size
+	$_containerSizeLarge: 1110px;
+
+	// Media XX-Large
+	$_media_XXLarge: 1400px;
+	// Media X-Large
+	$_media_XLarge: 1200px;
+	// Media Large
+	$_media_Large: 992px;
+	// Media Medium
+	$_media_Medium: 768px;
+	// Media Small
+	$_media_Small: 576px;
+	// Media Extra small
+	$_media_ExtraSmall: 425px;
+
+// Adaptive Resolutions And Container Sizes Ends
+
+
+// Other Starts
+
+	$_extraLightShadow: 0px 0px 9px 0px #0000000c;
+	$_lightShadow: 0px 0px 15px 0px #00000040;
+	$_hardShadow: 0px 0px 45px 0px #00000040;
+	$_headerShadow: 0px 4px 15px 0px #00000026;
+
+// Other Ends

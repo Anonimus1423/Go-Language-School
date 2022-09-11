@@ -1,0 +1,23 @@
+.bread-crumbs
+{
+    @include dfac;
+    li
+    {
+        padding-right: 9px;
+        margin-right: 9px;
+        border-right: 1px solid $_mainTextColor;
+        a
+        {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &:last-child
+        {
+            border-right: none;
+            a
+            {
+                color: $_firstColor;
+            }
+        }
+    }
+}

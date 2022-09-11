@@ -47,6 +47,7 @@ export const scss = () => {
 				)
 			)
 		)
+		.pipe(app.plugins.replace(/@img\//g, '../img/'))
 		// Раскомментировать если нужен не сжатый дубль файла стилей
 		.pipe(app.gulp.dest(app.path.build.css))
 		.pipe(
