@@ -1,0 +1,49 @@
+section.social-responsibility
+{
+    position: relative;
+    .rectangle-points-2-purple-effect
+    {   
+        left: 100%;
+        top: 101%;
+        transform: translateX(-100%);
+    }
+    .lines-effect
+    {
+        top: 23%;
+    }
+    .container
+    {
+        .cards
+        {
+            @include dfsb;
+            margin: 0 -16px;
+            position: relative;
+            .card
+            {   
+                width: 33.33%;
+                padding: 0 16px;
+                h4
+                {
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                a
+                {
+                    margin-top: 18px;
+                    display: inline-block;
+                }
+            }
+            .zigzag-effect
+            {
+                left: -46px;
+                top: 50px;
+            }
+            .zigzag-effect:nth-child(2)
+            {
+                left: 95.5%;
+                transform: rotateY(180deg);
+                top: 50px;
+            }
+        }
+    }
+}

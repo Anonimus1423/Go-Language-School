@@ -1,0 +1,50 @@
+.what-we-can-give-you
+{
+    margin-top: $_titleSecondMarginTop;
+    background-color: $_firstColor;
+    padding-bottom: $_titleSecondMarginTop;
+    h2
+    {
+        padding-top: $_titleSecondMarginTop;
+    }
+    .container
+    {
+        ol.cards
+        {
+            @include dfsbs;
+            margin: 0 -15px;
+            .card
+            {
+                position: relative;
+                width: 25%;
+                margin: 0px 15px;
+                background-color: $_backgroundColor;
+                padding: 10px;
+                border-radius: 10px;
+                img
+                {
+                    border-radius: 10px;
+                    width: 100%;
+                }
+                .line
+                {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                }
+                &:nth-child(2), &:nth-child(4)
+                {
+                    .line
+                    {
+                        background-color: $_secondColor;
+                    }
+                }
+                .triangle-points-effect
+                {
+                    z-index: 2;
+                    left: 189px;
+                    top: 215px;
+                }
+            }
+        }
+    }
+}

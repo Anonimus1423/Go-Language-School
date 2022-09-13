@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!-- Document Head Starts -->
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/image/x-icon" href="img/site_icon/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Go Language School | Սովորենք անգլերեն հեշտ ու արագ</title>
+
+	<!-- Yandex Map API -->
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=d6ac2e6d-46cd-4ca1-a272-97547bde6481&lang=ru_RU" type="text/javascript"></script>
+</head>
+	<!-- Document Head Ends -->
+
+	<body>
+
+		<!-- Site Header Starts -->
+		<header id="header">
+    <div class="container">
+        <a href="/" class="logo">
+            <img src="img/logo.jpg" alt="Go Language School">
+            <strong>Descriptor <br> for this</strong>
+        </a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/about-us">մեո մասին</a></li>
+                <li class="dropdown">
+                    <a id="joinUs" onclick="toggleActiveClass('dropdownJoinUs')">միացեք մեզ</a>
+                    <div class="dropdown-menu" id="dropdownJoinUs">
+                        <a href="/join-us-student">Ուսուցիչներ համար</a>
+                        <a href="/join-us-teacher">Աշակերտների համար</a>
+                    </div>
+                </li>
+                <li><a href="/blog">Բլոգ</a></li>
+                <li><a href="/gallery">պատկերասրահ</a></li>
+                <li><a href="/our-initiatives">Մեր նախաձեռնութունները</a></li>
+                <li><a href="/services">ծառայություններ</a></li>
+                <li><a href="/our-partners">Մեր գործնկերները</a></li>
+            </ul>
+        </nav>
+        <div class="contacts">
+            <img src="img/icons/icons.svg#phone" alt="Phone icon">
+            <div class="number">
+                <i>+(374)<span>98 850-057</span></i>
+                <a href="/" class="link">NEED CALLBACK</a>
+            </div>
+        </div>
+        <div class="languages">
+            <img src="img/armenian-flag.png" class="active" alt="armenian flag icon">
+            <img src="img/english-flag.png" alt="englis flag icon">
+        </div>
+    </div>
+</header>                              
+		<!-- Site Header Ends -->
+
+
+		<!-- Main Site Content Starts -->
+		<main>
+			<section class="cover-page">
+    <div class="container">
+        <div class="left">
+            <h1>Անգլերենի արդյունավետ դասընթացներ</h1>
+            <strong>Եթե անվճար դասից հետո 3 դաս անց կորոշեք, որ դասընթացը Ձեր համար չէ, հարմար չէ մեթոդաբանությունը կամ դասընթացի անցկացման ֆորմատը, մենք կվերադարձնենք գումարը 100%-ի չափով</strong>
+            <a href="#contact-us" class="default-button">Անգլերենի արդյունավետ <img src="img/icons/icons.svg#message-3" alt="envelop icon"></a>
+            <div class="slider-controllers">
+                <ol class="slider-indicators">
+                    <li><button class="indicator"></button></li>
+                    <li><button class="indicator"></button></li>
+                    <li><button class="indicator"></button></li>
+                    <li><button class="indicator active"></button></li>
+                    <li><button class="indicator"></button></li>
+                    <li><button class="indicator"></button></li>
+                    <li><button class="indicator"></button></li>
+                </ol>
+                <div class="slider-controller">
+                    <div class="left">
+                        <img src="img/icons/icons.svg#arrow-2-black" class="arrow" alt="arrow black"/>
+                        <div class="order">1</div>
+                    </div>
+                    <p>from</p>
+                    <div class="right">
+                        <div class="count">12</div>
+                        <img src="img/icons/icons.svg#arrow-2-black" class="arrow" alt="arrow black"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/cover-page-image.png">
+        </div>
+    </div>
+</section>
+			<section class="about">
+    <h2>Մեր մասին</h2>
+    <div class="container">
+        <div class="rectangle-points-effect">
+            <img src="img/icons/icons.svg#rectangle-points" alt="effect">
+            <div class="rectangle"></div>
+        </div>
+        <div class="left">
+            <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և գտնելու իրենց նախասիրություններին համապատախանող մասնագիտությունը, ստանալ տվյալյանալ</p>
+            <h3>նախաձեռնություն 1</h3>
+            <p>աշխատաշուկայում և գտնել իրենց նոր աշխատանքը: Ինչպես ասվում է մեր կարգախոսում՝ նոր գիտելիքներ, նոր</p>
+            <a href="/about-us" class="link">SHOW MORE</a>
+        </div>
+        <div class="right">
+            <div class="video light-shadow">
+    <button>
+        <img src="img/icons/icons.svg#play-button" alt="play button"/>
+    </button>
+</div>
+        </div>
+    </div>
+</section>
+
+
+
+
+			<section class="advantages">
+    <h2>մեր առավելությունները</h2>
+    <div class="container">
+        <ol class="advantages-list">
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#price" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#online-offline" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#simply" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#small-groups" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#quality-materials" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+            <li class="advantage">
+    <div class="icon">
+        <img src="img/icons/icons.svg#location" alt="price icon">
+    </div>
+    <h3>Մեր մասին</h3>
+    <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և</p>
+</li>
+        </ol>
+    </div>
+</section>
+			<section class="what-we-can-give-you">
+    <h2 class="second-color">Ինչ կստանաք սովորելով մեզ մոտ</h2>
+    <div class="container">
+        <ol class="cards">
+            <div class="card lightShadow">
+    <img src="img/what-we-can-give-you-1.png" alt="Fluent English in everyday life">
+    <img class="triangle-points-effect" src="img/icons/icons.svg#triangle-points" alt="effect">
+    <div class="line"></div>
+    <strong>Fluent English in everyday life/ business situations/ while travelling/ interviews /finding a job</strong>
+</div>
+            <div class="card lightShadow">
+    <img src="img/what-we-can-give-you-2.png" alt="Free learning materials">
+    <img class="triangle-points-effect" src="img/icons/icons.svg#triangle-points" alt="effect">
+    <div class="line"></div>
+    <strong>Free learning materials - you don’t have to pay, its included in the course price</strong>
+</div>
+            <div class="card lightShadow">
+    <img src="img/what-we-can-give-you-3.png" alt="Productive results">
+    <img class="triangle-points-effect" src="img/icons/icons.svg#triangle-points" alt="effect">
+    <div class="line"></div>
+    <strong>Productive results in a timely manner (arm.)</strong>
+</div>
+            <div class="card lightShadow">
+    <img src="img/what-we-can-give-you-4.png" alt="English speaking community">
+    <img class="triangle-points-effect" src="img/icons/icons.svg#triangle-points" alt="effect">
+    <div class="line"></div>
+    <strong>Opportunity to join English speaking community. (English events, networking)</strong>
+</div>
+        </ol>
+    </div>
+</section>
+			<section class="our-initiatives">
+    <h2>Մեր նախաձեռնությունները</h2>
+    <div class="container">
+        <div class="our-initiative_1">
+            <div class="content">
+                <h3>նախաձեռնություն 1</h3>
+                <h4>միքիչ ավելի մանրամասն նախաձեռնության մասին</h4>
+                <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և գտնելու իրենց նախասիրություններին համապատախանող մասնագիտությունը, ստանալ տվյալ ոլորտի գիտելիքները և մասնագիտանալ նոր ասպարեզում, ինչպես նաև, աջակցել բոլոր շրջանավարտներին ճիշտ ներկայանալ աշխատաշուկայում և գտնել իրենց նոր աշխատանքը:</p>
+                <a href="/initiative-1" class="link">SHOW MORE</a>
+            </div>
+            <div class="image">
+                <div class="img" alt="our initiatives">
+                    <div class="background default-image"></div>
+                    <img class="rectangle-points-2-effect" src="img/icons/icons.svg#rectangle-points-2" alt="effect">
+                </div>
+                <div class="images">
+                    <img class="default-image" src="img/initiative-2.webp" alt="our initiatives">
+                    <img class="default-image" src="img/initiative-3.webp" alt="our initiatives">
+                    <img class="default-image" src="img/initiative-4.webp" alt="our initiatives">
+                </div>
+            </div>
+        </div>
+        <div class="our-initiative_2">
+            <div class="image">
+                <img class="default-image" src="img/initiative-1.webp" alt="our initiatives">
+                <div class="rectangles-effect">
+    <div class="rect"></div>
+    <div class="rect"></div>
+    <div class="rect"></div>
+</div>
+            </div>
+            <div class="content">
+                <h3>նախաձեռնություն 1</h3>
+                <h4>միքիչ ավելի մանրամասն նախաձեռնության մասին</h4>
+                <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և գտնելու իրենց նախասիրություններին համապատախանող մասնագիտությունը, ստանալ տվյալ ոլորտի գիտելիքները և մասնագիտանալ նոր ասպարեզում, ինչպես նաև, աջակցել բոլոր շրջանավարտներին ճիշտ ներկայանալ աշխատաշուկայում և գտնել իրենց նոր աշխատանքը:</p>
+                <a href="/initiative-1" class="link">SHOW MORE</a>
+            </div>
+        </div>
+    </div>
+</section>
+			<section class="our-teachers">
+    <div class="container">
+        <div class="teachers">
+            <div id="teachers-slider" class="slider">
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-2.webp');" class="background default-image"></div>
+                    <img class="circle-points-purple-effect" src="img/icons/icons.svg#circle-points-purple_effect" alt="effect">
+                </div>
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-3.webp');" class="background default-image"></div>
+                </div>
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-4.webp');" class="background default-image"></div>
+                    <img class="circle-points-purple-effect" src="img/icons/icons.svg#circle-points-purple_effect" alt="effect">
+                </div>
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-2.webp');" class="background default-image"></div>
+                </div>
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-3.webp');" class="background default-image"></div>
+                    <img class="circle-points-purple-effect" src="img/icons/icons.svg#circle-points-purple_effect" alt="effect">
+                </div>
+                <div class="slide active">
+                    <div style="background-image: url('img/initiative-4.webp');" class="background default-image"></div>
+                </div>
+            </div>
+            <div class="slider-controller big white">
+                <div class="left" onclick="slideLeft('teachers-slider')">
+                    <img src="img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                    <div class="order">1</div>
+                </div>
+                <p>from</p>
+                <div class="right" onclick="slideRight('teachers-slider')">
+                    <div class="count">12</div>
+                    <img src="img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <h2 class="half">Մեր ուսուցիչները</h2>
+            <p>2018 թվականին հիմնելով ընկերությունը` նպատակ ենք դրել օգնել թե՛ երիտասարդներին, թե՛ ավելի հասուն մարդկանց՝ հասկանալու և գտնելու իրենց նախասիրություններին համապատախանող մասնագիտությունը, ստանալ տվյալ ոլորտի գիտելիքները և մասնագիտանալ մասնագիտությունը,</p>
+        </div>
+    </div>
+</section>
+			<section class="our-partners">
+    <h2>Մեր Գործընկերները</h2>
+    <div class="container">
+        <div class="rectangle-points-effect">
+            <img src="img/icons/icons.svg#rectangle-points" alt="effect">
+            <div class="rectangle"></div>
+        </div>
+        <div class="slider" id="parterns-slider">
+            <div class="slide">
+                <img src="img/partner-1.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-2.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-3.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-4.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-5.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-6.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-1.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-2.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-3.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-4.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-5.png" alt="partner">
+            </div>
+            <div class="slide">
+                <img src="img/partner-6.png" alt="partner">
+            </div>
+        </div>
+        <div class="slider-controller big">
+            <div class="left" onclick="slideLeft('parterns-slider')">
+                <img src="img/icons/icons.svg#arrow-2-black" class="arrow" alt="arrow black"/>
+                <div class="order">1</div>
+            </div>
+            <p>from</p>
+            <div class="right" onclick="slideRight('parterns-slider')">
+                <div class="count">12</div>
+                <img src="img/icons/icons.svg#arrow-2-black" class="arrow" alt="arrow black"/>
+            </div>
+        </div>
+    </div>
+</section>
+			<section class="social-responsibility">
+    <h2>Corporate social responsibility</h2>
+    <img class="lines-effect" src="img/icons/icons.svg#lines" alt="lines">
+    <img class="rectangle-points-2-purple-effect" src="img/icons/icons.svg#rectangle-points-2-purple" alt="effect">
+    <div class="container">
+        <div class="cards">
+            <img class="zigzag-effect" src="img/icons/icons.svg#zig-zag_effect" alt="zigzag">
+            <img class="zigzag-effect" src="img/icons/icons.svg#zig-zag_effect" alt="zigzag">
+            <div class="card">
+    <img class="default-image" src="img/initiative-2.webp" alt="social responsibility">
+    <h4>Zinvori tun rehabilitation center</h4>
+    <p>English with Laura provided English classes to wounded soldiers who were undergoing rehabilitation.</p>
+    <a href="/social-1" class="link">Իմանալ ավելին</a>
+</div>
+            <div class="card">
+    <img class="default-image" src="img/initiative-3.webp" alt="social responsibility">
+    <h4>Zinvori tun rehabilitation center</h4>
+    <p>English with Laura provided English classes to wounded soldiers who were undergoing rehabilitation.</p>
+    <a href="/social-1" class="link">Իմանալ ավելին</a>
+</div>
+            <div class="card">
+    <img class="default-image" src="img/initiative-4.webp" alt="social responsibility">
+    <h4>Zinvori tun rehabilitation center</h4>
+    <p>English with Laura provided English classes to wounded soldiers who were undergoing rehabilitation.</p>
+    <a href="/social-1" class="link">Իմանալ ավելին</a>
+</div>
+        </div>
+    </div>
+</section>
+			<section class="feedbacks">
+    <h2 class="second-color">Կարծիքներ</h2>
+    <div class="container">
+        <div class="feedback-list" id="feedback-slider">
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-1.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Վարթ Օհանյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-2.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Անահիտ Հակոբյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-1.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Վարթ Օհանյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-2.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Անահիտ Հակոբյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-1.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Վարթ Օհանյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <div class="feedback">
+    <div class="feedback-inner">
+        <div style="background-image: url('img/human-2.png');" class="img"></div>
+        <div class="right">
+            <div class="line"></div>
+            <b>Անահիտ Հակոբյան</b>
+            <i>Հայաստան, Երեվան</i>
+            <p>I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️</p>
+        </div>
+    </div>
+</div>
+            <img class="rectangle-points-effect" src="img/icons/icons.svg#rectangle-points" alt="effect">
+        </div>
+        <div class="slider-controllers">
+            <ol class="slider-indicators white">
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator active"></button></li>
+                <li><button class="indicator active"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+            </ol>
+            <div class="slider-controller white yellow-hover">
+                <div class="left" onclick="slideLeft('feedback-slider')">
+                    <img src="img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                    <div class="order">1</div>
+                </div>
+                <p>from</p>
+                <div class="right" onclick="slideRight('feedback-slider')">
+                    <div class="count">12</div>
+                    <img src="img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+			<section class="contacts">
+    <div id="map" class="map"></div>
+    <div class="container">
+        <div class="contact-info">
+            <div class="line"></div>
+            <h3>Կոնտակտներ</h3>
+            <ol class="contact-list">
+                <li>
+                    <img src="img/icons/icons.svg#phone" alt="phone icon">
+                    <b>Հեռախոսահամար<span>:</span></b>
+                    <p class="active">+(374) 98 850-057</p>
+                </li>
+                <li>
+                    <img src="img/icons/icons.svg#message" alt="email icon">
+                    <b>email<span>:</span></b>
+                    <p>vaghinak_papoyan@mail.ru</p>
+                </li>
+                <li>
+                    <img src="img/icons/icons.svg#map-marker" alt="map point icon">
+                    <b>Հասցե<span>:</span></b>
+                    <p>Vazgen Sargsyan 26/3 Ереван, Армения</p>
+                </li>
+            </ol>
+            <ol class="social-media">
+                <li><img src="img/icons/icons.svg#whatsapp_white" alt="whatsapp white"></li>
+                <li><img src="img/icons/icons.svg#telegram_white" alt="telegram white"></li>
+                <li><img src="img/icons/icons.svg#instagram_white" alt="instagram white"></li>
+                <li><img src="img/icons/icons.svg#facebook_white" alt="facebook white"></li>
+            </ol>
+        </div>
+    </div>
+</section> 
+			<section id="contact-us" class="contact-us">
+    <h2>Կապվեք մեզ հետ</h2>
+    <div class="container">
+        <img src="img/student.png" alt="student schoolchildren pupil">
+        <form action="">
+            <h3>Մենք ձեզ կպատասխանենք 1 օրվա ընթացքում</h3>
+            <input type="text" placeholder="Անուն, Ազգանուն" class="default-input">
+            <input type="text" placeholder="հեռախոսահամար" class="default-input">
+			<div class="selector-container">
+				<div class="default-selector">Անուն, Ազգանուն</div>
+			</div>
+            <textarea class="default-textarea">Հաղորդագրություն</textarea>
+            <div class="submit">
+                <i>Հաղորդագրություն  Անուն, <br> զգանունՀ աղորդագրություն</i>
+                <button class="default-button">ՈՒղարկել <img src="img/icons/icons.svg#message-3" alt="envelop icon"></button>
+            </div>
+        </form>
+    </div>
+</section>
+
+		</main>
+		<!-- Main Site Content Ends -->
+
+		<!-- Site Footer Starts -->
+		<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="logo">
+                <a href="/">
+                    <img src="img/footer-logo.png" alt="Go Language School">
+                </a>
+            </div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="/about-us">մեո մասին</a></li>
+                        <li><a href="/blog">Բլոգ</a></li>
+                        <li><a href="/gallery">պատկերասրահ</a></li>
+                        <li><a href="/our-partners">Մեր գործնկերները</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/join-us">միացեք մեզ</a></li>
+                        <li><a href="/our-initiatives">Մեր <br> նախաձեռնութունները</a></li>
+                        <li><a href="/services">ծառայություններ</a></li>
+                    </ul>
+                </nav>
+                <div class="contact-info">
+                    <ol class="contact-list">
+                        <li>
+                            <img src="img/icons/icons.svg#phone" alt="phone icon">
+                            <b>Հեռախոսահամար<span>:</span></b>
+                            <p class="active">+(374) 98 850-057</p>
+                        </li>
+                        <li>
+                            <img src="img/icons/icons.svg#message" alt="email icon">
+                            <b>email<span>:</span></b>
+                            <p>vaghinak_papoyan@mail.ru</p>
+                        </li>
+                        <li>
+                            <img src="img/icons/icons.svg#map-marker" alt="map point icon">
+                            <b>Հասցե<span>:</span></b>
+                            <p>Vazgen Sargsyan 26/3 Ереван, Армения</p>
+                        </li>
+                    </ol>
+                    <ol class="social-media">
+                        <li><img src="img/icons/icons.svg#whatsapp" alt="whatsapp white"></li>
+                        <li><img src="img/icons/icons.svg#telegram" alt="telegram white"></li>
+                        <li><img src="img/icons/icons.svg#instagram" alt="instagram white"></li>
+                        <li><img src="img/icons/icons.svg#facebook" alt="facebook white"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <i>© 2022 Go-Language-School</i>
+        </div>
+    </div>
+</footer>
+
+		<!-- Site Footer Ends -->
+
+		<script defer src="js/app.min.js"></script>
+	</body>
+</html>

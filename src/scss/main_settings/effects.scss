@@ -1,0 +1,55 @@
+.triangle-points-effect,
+.rectangle-points-effect,
+.rectangle-points-2-effect, 
+.circle-points-purple-effect,
+.rectangle-points-2-purple-effect,
+.lines-effect,
+.zigzag-effect
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.rectangle-points-effect
+{
+    img
+    {
+        width: 209px;
+        height: 209px;
+    }
+    .rectangle
+    {
+        width: 210px;
+        height: 210px;
+        border-radius: 10px;
+        border: 1px solid $_firstColor;
+        position: relative;
+        left: 101px;
+        top: -110px;
+    }
+}
+.triangle-points-effect
+{
+    width: 44px !important;
+}
+.rectangle-points-2-effect
+{
+    width: 138px;
+}
+.circle-points-purple-effect
+{
+    width: 113px;
+}
+.rectangle-points-2-purple-effect
+{
+    width: 138px;
+}
+.lines-effect
+{
+    width: 400px;
+}
+.zigzag-effect
+{
+    width: 96px;
+}

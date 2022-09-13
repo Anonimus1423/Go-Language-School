@@ -1,4 +1,4 @@
-<header>
+<header id="header">
     <div class="container">
         <a href="/" class="logo">
             <img src="@img/logo.jpg" alt="Go Language School">
@@ -7,7 +7,13 @@
         <nav class="navigation">
             <ul>
                 <li><a href="/about-us">մեո մասին</a></li>
-                <li><a href="/join-us">միացեք մեզ</a></li>
+                <li class="dropdown">
+                    <a id="joinUs" onclick="toggleActiveClass('dropdownJoinUs')">միացեք մեզ</a>
+                    <div class="dropdown-menu" id="dropdownJoinUs">
+                        <a href="/join-us-student">Ուսուցիչներ համար</a>
+                        <a href="/join-us-teacher">Աշակերտների համար</a>
+                    </div>
+                </li>
                 <li><a href="/blog">Բլոգ</a></li>
                 <li><a href="/gallery">պատկերասրահ</a></li>
                 <li><a href="/our-initiatives">Մեր նախաձեռնութունները</a></li>

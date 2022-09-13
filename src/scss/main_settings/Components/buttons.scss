@@ -1,4 +1,4 @@
-button.default-button
+a.default-button, button.default-button
 {
 	font-size: 17px;
 	font-weight: 400;
@@ -6,12 +6,13 @@ button.default-button
 	letter-spacing: 0em;
 	background-color: $_secondColorLight;
 	border-radius: 5px;
-	padding: 12px 19px;
-	display: inline-block;
+	padding: 3px 19px;
 	transition: 0.3s;
     cursor: pointer;
 	border: 3px solid $_secondColorLight;
+	white-space: nowrap;
 	@include dfsb;
+	display: inline-flex !important;
 	img
 	{
 		width: 37px;

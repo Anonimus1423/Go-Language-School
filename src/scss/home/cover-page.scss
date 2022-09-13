@@ -1,8 +1,9 @@
 section.cover-page
 {
-    // background-image: url("@img/icons/icons.svg#cover-page_background");
-    background-size: cover;
+    background-size: 93%;
+    background-position: 245px -75px;
     background-repeat: no-repeat;
+    background-image: url("@img/cover-page-background.svg");
     .container
     {
         @include dfsb;
@@ -10,25 +11,21 @@ section.cover-page
         {
             padding-top: 155px;
             width: 71%;
-            h1
-            {
-
-            }
             strong
             {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 26px;
-                text-shadow: -1px -1px 0 $_secondTextColor, 1px -1px 0 $_secondTextColor, -1px 1px 0 $_secondTextColor, 1px 1px 0 $_secondTextColor;
                 display: block;
                 margin-bottom: 52px;
                 margin-top: 22px;
+                text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+                white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px;
+                -webkit-font-smoothing: antialiased
             }
-            &>button
+            &>a
             {
-	            padding: 3px 19px;
                 margin-bottom: 175px;
-
             }
             .slider-controllers
             {

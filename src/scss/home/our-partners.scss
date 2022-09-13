@@ -1,0 +1,46 @@
+.our-partners
+{
+    h2
+    {
+        margin-top: $_titleSecondMarginTop;
+    }
+    .container
+    {
+        position: relative;
+        .rectangle-points-effect
+        {
+            z-index: 3;
+            top: -238px;
+            left: 117%;
+            .rectangle
+            {
+                left: -105px;
+            }
+        }
+        .slider
+        {
+            @include dfsb;
+            overflow-x: scroll;
+            margin: 0px -50px;
+            .slide
+            {
+                min-width: 105px;
+                margin: 0px 50px;
+            }
+            &::-webkit-scrollbar 
+            {
+                display: none;
+            }
+            & 
+            {
+              -ms-overflow-style: none;
+              scrollbar-width: none;  
+            }
+        }
+        .slider-controller
+        {
+            @include dfjc;
+            margin-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+<section class="feedbacks">
+    <h2 class="second-color">Կարծիքներ</h2>
+    <div class="container">
+        <div class="feedback-list" id="feedback-slider">
+            @@include("feedback.html", 
+            {
+                img: "@img/human-1.png",
+                name: "Վարթ Օհանյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            @@include("feedback.html", 
+            {
+                img: "@img/human-2.png",
+                name: "Անահիտ Հակոբյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            @@include("feedback.html", 
+            {
+                img: "@img/human-1.png",
+                name: "Վարթ Օհանյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            @@include("feedback.html", 
+            {
+                img: "@img/human-2.png",
+                name: "Անահիտ Հակոբյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            @@include("feedback.html", 
+            {
+                img: "@img/human-1.png",
+                name: "Վարթ Օհանյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            @@include("feedback.html", 
+            {
+                img: "@img/human-2.png",
+                name: "Անահիտ Հակոբյան",
+                moreInfo: "Հայաստան, Երեվան",
+                text: "I really like GO language school. Friendly and kind people. I make a lot of friends and also finde my dream english teacher Ozheni ❤️❤️❤️ love you all ❤️❤️❤️"
+            })
+            <img class="rectangle-points-effect" src="@img/icons/icons.svg#rectangle-points" alt="effect">
+        </div>
+        <div class="slider-controllers">
+            <ol class="slider-indicators white">
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator active"></button></li>
+                <li><button class="indicator active"></button></li>
+                <li><button class="indicator"></button></li>
+                <li><button class="indicator"></button></li>
+            </ol>
+            <div class="slider-controller white yellow-hover">
+                <div class="left" onclick="slideLeft('feedback-slider')">
+                    <img src="@img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                    <div class="order">1</div>
+                </div>
+                <p>from</p>
+                <div class="right" onclick="slideRight('feedback-slider')">
+                    <div class="count">12</div>
+                    <img src="@img/icons/icons.svg#arrow-2" class="arrow" alt="arrow black"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -67,16 +67,16 @@
 // Margin Settings Starts
 
 	// Titles margin top
-	$_titleMarginTop: 100px;
+	$_titleMarginTop: 110px;
 
 	// Titles second margin top
-	$_titleSecondMarginTop: 75px;
+	$_titleSecondMarginTop: 82.5px;
 
 	// Titles margin Bottom
-	$_titleMarginBottom: 50px;
+	$_titleMarginBottom: 60.5px;
 
 	// Colored block padding
-	$_coloredBlockPaddingY: 75px;
+	$_coloredBlockPaddingY: 10075px;
 
 	// Header Padding Size 
 	$_headerPaddingY: 18px;
@@ -124,3 +124,23 @@
 	$_headerShadow: 0px 4px 15px 0px #00000026;
 
 // Other Ends
+
+
+@media all and (max-width: $_media_XXLarge) 
+{
+}
+@media all and (max-width: $_media_XLarge) 
+{
+}
+@media all and (max-width: $_media_Large) 
+{
+}
+@media all and (max-width: $_media_Medium) 
+{
+}
+@media all and (max-width: $_media_Small) 
+{
+}
+@media all and (max-width: $_media_ExtraSmall) 
+{
+}

@@ -1,0 +1,67 @@
+.contact-us
+{
+    background-size: cover;
+    background-position: -50px -8px;
+    background-repeat: no-repeat;
+    background-image: url("@img/cover-page-background.svg");
+    h2
+    {
+        margin-top: 0;
+        padding-top: $_titleMarginTop;
+        padding-bottom: 25px;
+    }
+    .container
+    {
+        @include dfjc;
+        position: relative;
+        &>img
+        {
+            width: 94%;
+            position: relative;
+            left: -385px;
+            margin-top: -50px;
+        }
+        form
+        {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            transform: translateX(-100%);
+            background-color: $_thirdBackgroundColor;
+            border-radius: 10px;
+            padding: 35px 20px 42px 20px;
+            box-shadow: $_lightShadow;
+            width: 498px;
+            h3
+            {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 38px;
+                text-align: center;
+                margin-bottom: 28px;
+            }
+            input
+            {
+                margin-bottom: 19px;
+            }
+            .selector-container
+            {
+                margin-bottom: 19px;
+            }
+            textarea
+            {
+                height: 180px
+            }
+            .submit
+            {
+                @include dfsb;
+                margin-top: 32px;
+                i
+                {
+                    color: $_mainTextColor;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+}

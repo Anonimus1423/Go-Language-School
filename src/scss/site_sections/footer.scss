@@ -1,6 +1,105 @@
 // Footer Starts
 footer
 {
-
+    .footer-top
+    {
+        background-color: $_secondBackgroundColor;
+        box-shadow: $_headerShadow;
+        &>.container
+        {
+            @include dfsb;
+            padding: 23px 0px;
+            .logo
+            {
+                height: 137px   
+            }
+            .right
+            {
+                display: flex;
+                align-items: start;
+            }
+            nav
+            {
+                @include dfas;
+                ul
+                {
+                    margin-right: 45px;
+                    li
+                    {
+                        margin-bottom: 10px;
+                        a
+                        {
+                            line-height: 20px;
+                            font-size: 16px;
+                            font-weight: 400;
+                            letter-spacing: -0.04em;
+                            transition: 0.2s;
+                            &:hover
+                            {
+                                color: $_firstColor;
+                            }
+                        }
+                    }
+                }
+            }
+            .contact-info
+            {
+                .contact-list
+                {
+                    li
+                    {
+                        @include dfac;
+                        img
+                        {
+                            height: 17px;
+                        }
+                        b
+                        {
+                            margin-left: 7px;
+                            margin-right: 9px;
+                        }
+                        p
+                        {
+        
+                        }
+                    }
+                }
+                .social-media
+                {
+                    margin-top: 20px;
+                    @include dfac;
+                    li
+                    {
+                        margin-right: 5px;
+                        img
+                        {
+                            width: 18px;
+                        }
+                        &:last-child
+                        {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright
+    {
+        position: relative;
+        z-index: -1;
+        background-color: $_backgroundColor;
+        padding: 15px 0px;
+        .container
+        {
+            i
+            {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $_mainTextColor;
+            }
+        }
+    }
 }
 // Footer Ends

@@ -17,6 +17,7 @@ time, mark, audio, video, input, textarea {
   font-size: 100%;
   color: $_mainTextColor;
   font: inherit;
+  scroll-behavior: smooth;
   vertical-align: baseline;
   font-family: DejaVuSans !important;
   text-rendering: optimizeLegibility;

@@ -11,8 +11,8 @@
         }
         .order
         {
-            margin-right: 4px !important;
-            margin-left: 1px;
+            margin-right: 5px !important;
+            margin-left: 7px;
         }
     }   
     & > p
@@ -27,7 +27,7 @@
         .count
         {
             margin-left: 4px;
-            margin-right: 1px;
+            margin-right: 7px;
         }
         .arrow
         {
@@ -38,23 +38,87 @@
     {
         font-size: 14px;
         font-weight: 700;
+        transition: 0.3s;
     }
     .right, .left
     {
         cursor: pointer;
         &:hover
         {
-            div, img
+            div
             {
-                color: $_firstColor;
+                color: $_firstColor !important;
+            }
+            .order
+            {
+                margin-left: 10px;
+                font-size: 15px;
+            }
+            .count
+            {
+                margin-right: 10px;
+                font-size: 15px;
             }
         }
     }
+    &.big
+    {
+        align-items: center;
+        .arrow
+        {
+            height: 24px;
+        }
+        .left, .right
+        {
+            align-items: center;
+        }
+        .order
+        {
+            margin-right: 5px !important;
+            margin-left: 7px;
+        }
+        .right:hover, .left:hover
+        {
+            .order
+            {
+                margin-left: 13px;
+            }
+            .count
+            {
+                margin-right: 13px;
+            }
+        }
+    }
+    &.white
+    {
+        & > p, .order, .count
+        {
+            color: $_secondTextColor !important;
+        }
+    }   
+    &.yellow-hover.right:hover div, .left.yellow-hover.left:hover div
+    {
+    }
+}
+.slider-controller.yellow-hover .right:hover .count
+{
+    color: $_secondColor !important;
+}
+.slider-controller.yellow-hover .left:hover .order
+{
+    color: $_secondColor !important;
 }
 
 .slider-indicators
 {
     @include dfjc;
+    &.white
+    {
+        .indicator
+        {
+            background-color: $_secondBackgroundColor;
+        }
+    }
     .indicator
     {
         display: block;

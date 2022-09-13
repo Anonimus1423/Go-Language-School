@@ -1,7 +1,9 @@
 .about
 {
+    overflow: hidden;
     .container
     {
+        position: relative;
         @include dfsb;
         .left
         {
@@ -26,6 +28,11 @@
             {
                 width: 100%;
             }
+        }
+        .rectangle-points-effect
+        {
+            left: 870px;
+            top: -257px;
         }
     }
 }
